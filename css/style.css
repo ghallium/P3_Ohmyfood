@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 1% 0 1%;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    
+    display: block;
+}
+
+.header_container {
+    width: 100%;
+    border: 3px solid red;
+}
+
+.header_container img {
+    margin: 0 auto;
+    border: 3px solid blue;
+}
