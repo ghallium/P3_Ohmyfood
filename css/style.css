@@ -59,10 +59,12 @@ form {
   margin: 0 auto;
   border-radius: 25px;
   box-shadow: 0px 0px 20px #999;
+  display: flex;
 }
 
 .btn span {
   color: white;
+  justify-content: center;
 }
 
 .how_to h2 {
@@ -73,16 +75,23 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 3px solid red;
+  padding: 5%;
+  padding-bottom: 10%;
 }
 
 .howto_instruction {
-  width: 30%;
-  padding: 1%;
+  width: 80%;
+  padding: 8%;
   box-shadow: 0px 0px 20px #999;
-  border-radius: 25px;
+  border-radius: 15px;
   font-weight: 500;
   margin: 0 auto;
+}
+
+.howto_instruction i {
+  color: #353535;
+  padding-left: 20px;
+  padding-right: 25px;
 }
 
 .howto_instruction_number {
@@ -90,13 +99,48 @@ form {
   width: 20px;
   border-radius: 50px;
   color: white;
-  margin: 0 auto;
   padding: 5px;
+}
+
+.card_restaurant {
+  width: 90%;
+  height: 200px;
+  border-radius: 15px;
+  padding-bottom: 55px;
+  margin: 0 auto;
+}
+
+.card_restaurant_image {
+  height: 150px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  overflow: hidden;
+}
+
+.card_restaurant_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card_restaurant_excerpt {
+  background: white;
+  box-shadow: 0px 0px 20px #999;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.card_restaurant_excerpt a {
+  text-decoration: none;
 }
 
 footer {
   width: 100%;
-  padding: 3%;
+  padding: 10%;
   background: #353535;
   display: flex;
   flex-direction: column;
@@ -104,7 +148,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  padding: 1%;
+  padding: 5%;
   color: white;
 }
 

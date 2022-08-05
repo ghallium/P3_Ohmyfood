@@ -9,9 +9,11 @@ $secondary_color : #FF79DA;
    margin: 0 auto;
    border-radius: 25px;
    box-shadow: 0px 0px 20px #999;
+   display: flex;
 }
 
 .btn span {
    color: white;
+   justify-content: center;
 }
 
