@@ -1,0 +1,22 @@
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #eaeaea;
+    height: 35px;
+}
+
+#input_bar {
+    background: #eaeaea;
+    border: 0;
+    font-weight: 500;
+    color: #353535;
+}
+
+.fa-map-marker-alt {
+    display: flex;
+    color: #353535;
+    align-items: center;
+    width: 20px;
+    
+}

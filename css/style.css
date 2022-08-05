@@ -1,69 +1,115 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 0 1% 0 1%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 1% 0 1%;
 }
-
-/* Header */
-
-header {
-    width: 100%;
-    
-    display: block;
-}
-
-.header_container {
-    width: 100%;
-    box-shadow: -1px 11px 12px -2px rgba(0,0,0,0.31);
-}
-
-.header_container img {
-    margin: 0 auto;
-    border: 3px solid blue;
-}
-
-/* Champ recherche */
-
-form {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background: #eaeaea;
-    height: 35px;
-}
-
-#input_bar {
-    background: #eaeaea;
-    border: 0;
-    font-weight: 500;
-    color: #353535;
-}
-
-.fa-map-marker-alt {
-    display: flex;
-    color: #353535;
-    align-items: center;
-    width: 20px;
-    
-}
-
-/* Headline */
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .headline p {
-    text-align: center;
+  text-align: center;
+  font-weight: 300;
 }
 
-.headline div {
-    text-align: center;
+header {
+  width: 100%;
+  display: block;
 }
 
-/* Fonctionnement */ 
+.header_container {
+  width: 100%;
+  box-shadow: -1px 11px 12px -2px rgba(0, 0, 0, 0.31);
+}
 
+.header_container img {
+  margin: 0 auto;
+  border: 3px solid blue;
+}
 
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #eaeaea;
+  height: 35px;
+}
 
+#input_bar {
+  background: #eaeaea;
+  border: 0;
+  font-weight: 500;
+  color: #353535;
+}
+
+.fa-map-marker-alt {
+  display: flex;
+  color: #353535;
+  align-items: center;
+  width: 20px;
+}
+
+.btn {
+  background: linear-gradient(#FF79DA, #9356DC);
+  width: 220px;
+  height: 51px;
+  margin: 0 auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px #999;
+}
+
+.btn span {
+  color: white;
+}
+
+.how_to h2 {
+  text-align: center;
+}
+
+.how_to {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid red;
+}
+
+.howto_instruction {
+  width: 30%;
+  padding: 1%;
+  box-shadow: 0px 0px 20px #999;
+  border-radius: 25px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.howto_instruction_number {
+  background: #9356DC;
+  width: 20px;
+  border-radius: 50px;
+  color: white;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+footer {
+  width: 100%;
+  padding: 3%;
+  background: #353535;
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 1%;
+  color: white;
+}
+
+footer img {
+  max-width: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+$primary_color : #9356DC;
+$secondary_color : #FF79DA;
+
+
+.btn {
+   background: linear-gradient($secondary_color, $primary_color);
+   width: 220px;
+   height: 51px;
+   margin: 0 auto;
+   border-radius: 25px;
+   box-shadow: 0px 0px 20px #999;
+}
+
+.btn span {
+   color: white;
+}
+
