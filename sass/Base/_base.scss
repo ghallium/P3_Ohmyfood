@@ -6,12 +6,20 @@ body {
     padding: 0 1% 0 1%;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 h1 {
     text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
 }
 
 .headline p {
     text-align: center;
     font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
