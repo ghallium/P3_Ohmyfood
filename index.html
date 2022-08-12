@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Ohmyfood!</title>
   </head>
+
   <body>
     <header>
       <div class="header_container">
@@ -33,29 +34,36 @@
       <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
       <div class="btn"><span>Explorer nos restaurants</span></div>
     </section>
+    <h2>Fonctionnement</h2>
     <section class="how_to">
-      <h2>Fonctionnement</h2>
-
-      <div class="howto_instruction">
+      <a href="#">
         <div class="howto_instruction_nb">1</div>
-        <i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant
-      </div>
+        <div class="howto_instruction">
+          <i class="fa-solid fa-mobile-screen-button"></i>Choisissez un
+          restaurant
+        </div>
+      </a>
 
-      <div class="howto_instruction">
+      <a href="#">
         <div class="howto_instruction_nb">2</div>
-        <i class="fa-solid fa-bars"></i>Composez votre menu
-      </div>
+        <div class="howto_instruction">
+          <i class="fa-solid fa-list"></i>Composez votre menu
+        </div>
+      </a>
 
-      <div class="howto_instruction">
+      <a href="#">
         <div class="howto_instruction_nb">3</div>
-        <i class="fa-solid fa-store"></i>Dégustez au restaurant
-      </div>
+        <div class="howto_instruction">
+          <i class="fa-solid fa-store"></i>Dégustez au restaurant
+        </div>
+      </a>
     </section>
     <section class="restaurants">
+      <h3>Restaurants</h3>
       <div class="card_restaurant">
         <a href="#">
+          <div class="card_restaurant_new"><span>Nouveau</span></div>
           <div class="card_restaurant_image">
-            <div class="card_restaurant_new">Nouveau</div>
             <img
               src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
               alt="Photo La palette du goût"
@@ -70,8 +78,8 @@
       </div>
       <div class="card_restaurant">
         <a href="#">
+          <div class="card_restaurant_new"><span>Nouveau</span></div>
           <div class="card_restaurant_image">
-            <div class="card_restaurant_new">Nouveau</div>
             <img
               src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
               alt="Photo La note enchantée"
@@ -122,7 +130,13 @@
         ><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a
       >
       <a href="#">Mentions légales</a>
-      <a href="#">Contact</a>
+      <a href="mailto:contact@ohmyfood.fr">Contact</a>
     </footer>
   </body>
-</html>
+  <!-- PROBLEMES A RESOUDRE 
+
+Positionnement des numéros sur partie fonctionnement 
+Ombre portée sur header qui se voit sur le form
+Comment faire pour hover howto_instruction et howto_instruction_i simultanément ? 
+
+--></html>

@@ -1,0 +1,61 @@
+
+h2 {
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.how_to {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.howto_instruction {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 95%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: $grey_background;
+    z-index: 0;
+    
+}
+
+.howto_instruction:hover {
+    background: #f5edff;
+}
+
+
+
+.howto_instruction i {
+    color: #353535;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.howto_instruction i:hover {
+    color: $primary_color;
+}
+
+.howto_instruction_nb {
+    width: 15px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    border-radius: 50% 50%;
+    padding: 0.5rem;
+    background-color: $primary_color;
+    z-index: 1;
+    position: relative;
+    
+}

@@ -1,0 +1,73 @@
+@media (min-width: $tablet_breakpoint) {
+
+    header {
+        border: 3px solid red;
+    }
+
+    .restaurants {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card_restaurant {
+        width: 45%;
+    }
+
+    footer {
+        padding: 2%;
+        padding-bottom: 2%;
+    }
+
+    footer span {
+        padding-bottom: 1%;
+    }
+
+    footer a {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width : $desktop_breakpoint) and (max-width: 1920px) {
+    
+    header {
+        border: 3px solid blue;
+    }
+
+    .headline {
+        padding: 8%;
+    }
+
+    .headline p {
+        padding-bottom: 20px;
+    }
+
+    .how_to {
+        
+    }
+
+    .card_restaurant {
+        height: 400px;
+    }
+
+    .card_restaurant_new {
+        padding: 1% 2%;
+    }
+
+    .card_restaurant_image {
+        height: 305px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer a {
+        
+        padding: 0;
+    }
+
+}

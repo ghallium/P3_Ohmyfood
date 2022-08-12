@@ -1,8 +1,10 @@
+@import './Utils/_variables.scss'; 
 @import './Base/base';
 @import './layout/header';
 @import "./Composants/form";
 @import "./Composants/button";
-@import "./layout/howto";
+@import "./Pages/_home";
 @import "./Composants/card";
-@import './Utils/_variables.scss'; 
 @import './layout/footer.scss'; 
+@import './layout/mediaqueries';
+
