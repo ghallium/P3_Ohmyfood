@@ -4,6 +4,10 @@
         border: 3px solid red;
     }
 
+    .fa-map-marker-alt {
+        padding-left: 41%;
+    }
+
     .restaurants {
         display: flex;
         flex-wrap: wrap;
@@ -33,7 +37,27 @@
     
     header {
         border: 3px solid blue;
+
     }
+
+    .header_container img {
+        max-width: 350px;
+    }
+
+    form {
+        height: 53px;
+    }
+
+    #input_bar {
+        font-size: 21px;
+        padding-left: 3%;
+    }
+
+    .fa-map-marker-alt {
+        padding-left: 45%;
+        font-size: 24px;
+    }
+
 
     .headline {
         padding: 8%;
@@ -44,7 +68,25 @@
     }
 
     .how_to {
-        
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 4%;
+    }
+
+    h2 {
+        padding-left: 2%;
+        padding-bottom: 2%;
+    }
+
+    article {
+        margin-bottom: 20px;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    h3 {
+        padding-left: 2%;
+        padding-bottom: 2%;
     }
 
     .card_restaurant {
