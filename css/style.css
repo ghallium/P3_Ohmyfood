@@ -39,7 +39,7 @@ header {
   padding: 2%;
   display: flex;
   justify-content: center;
-  box-shadow: 1px 13px 15px -1px rgba(0, 0, 0, 0.57);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 10px -10px;
 }
 .header_container img {
   margin: 0 auto;
@@ -98,48 +98,39 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
-.howto_instruction {
+.how_to article {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  border-radius: 20px 20px 20px 20px;
+  background: #f6f6f6;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 95%;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  background-color: #f6f6f6;
-  z-index: 0;
+  border-radius: 20px 20px 20px 20px;
+  width: 80%;
+  height: 60px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.how_to .howto_instruction_nb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9356DC;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+}
+.how_to i {
+  padding-right: 10px;
 }
 
-.howto_instruction:hover {
+article:hover {
   background: #f5edff;
 }
-
-.howto_instruction i {
-  color: #353535;
-  padding-left: 10px;
-  padding-right: 25px;
-}
-
-.howto_instruction i:hover {
+article:hover i {
   color: #9356DC;
-}
-
-.howto_instruction_nb {
-  width: 15px;
-  color: white;
-  text-align: center;
-  font-size: 12px;
-  font-weight: bold;
-  margin-right: -10px;
-  margin-bottom: 10px;
-  border-radius: 50% 50%;
-  padding: 0.5rem;
-  background-color: #9356DC;
-  z-index: 1;
-  position: relative;
 }
 
 h3 {
