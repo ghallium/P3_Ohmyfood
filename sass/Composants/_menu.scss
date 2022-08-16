@@ -1,0 +1,76 @@
+.fa-arrow-left {
+    font-size: 20px;
+    position: absolute;
+    top: 31%;
+    left: 5%;
+}
+
+main {
+    width: 100%;
+    background: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+}
+
+.title_menu {
+    font-family: 'Shrikhand';
+    font-size: 26px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.sections_menu {
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: 3px $tertiary_color underline;
+}
+
+.dish_name_menu {
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.dish_menu p {
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 4%;
+}
+
+#menu {
+    background: $grey_background;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    
+}
+
+#menu i {
+    position: absolute;
+    top: 3%;
+    left: 85%;
+    font-size: 24px;
+}
+
+.dish_menu {
+    width: 90%;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* si je mets margin 0 auto le margin-bottom ne s'applique plus*/
+    position: relative;
+    /* Il y'a un hover car hérité de la classe article sur index.htm*/
+
+}
+
+.pricetag_menu {
+    font-weight: 600;
+    position: absolute;
+    top: 68%;
+    left: 90%;
+}
