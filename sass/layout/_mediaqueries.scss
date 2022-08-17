@@ -1,4 +1,4 @@
-@media (min-width: $tablet_breakpoint) {
+@media (min-width: $tablet_breakpoint) and (max-width: 1279px) {
 
     header {
         border: 3px solid red;
@@ -33,7 +33,7 @@
 
 }
 
-@media (min-width : $desktop_breakpoint) and (max-width: 1920px) {
+@media (min-width: $desktop_breakpoint) {
     
     header {
         border: 3px solid blue;
@@ -82,33 +82,21 @@
         padding-bottom: 2%;
     }
 
-    article {
-        margin-bottom: 20px;
-        margin-right: 2%;
-        margin-left: 2%;
-    }
-
-    h3 {
-        padding-left: 2%;
-        padding-bottom: 2%;
+    .restaurants {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .card_restaurant {
-        height: 400px;
-    }
-
-    .card_restaurant_new {
-        padding: 1% 2%;
-    }
-
-    .card_restaurant_image {
-        height: 305px;
+        width: 45%;
     }
 
     footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding: 2%;
+        padding-bottom: 2%;
     }
 
     footer a {
