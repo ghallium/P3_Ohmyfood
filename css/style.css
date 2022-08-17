@@ -99,7 +99,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.how_to article {
+.how_to .instruction {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,10 +127,17 @@ h2 {
   padding-right: 10px;
 }
 
-article:hover {
+.instruction:hover {
   background: #f5edff;
 }
-article:hover i {
+.instruction:hover i {
+  color: #9356DC;
+}
+
+.instruction:active {
+  background: #f5edff;
+}
+.instruction:active i {
   color: #9356DC;
 }
 
