@@ -23,7 +23,7 @@ main {
 }
 
 .title_menu {
-    font-family: 'Shrikhand';
+    font-family: $logo_font;
     font-size: 26px;
     text-align: left;
     padding-left: 3%;
@@ -55,14 +55,17 @@ hr {
 .dish_name_menu {
     font-size: 18px;
     font-weight: 500;
-    padding-left: 3%;
+    padding: 1%;
+    margin: 0;
+    
     
 }
 
 .dish_menu p {
     font-weight: 300;
     font-size: 16px;
-    padding-left: 3%;
+    padding: 1%;
+    margin: 0;
 }
 
 #menu {
@@ -71,7 +74,6 @@ hr {
     border-top-right-radius: 30px;
     display: flex;
     flex-direction: column;
-    
     position: relative;
     padding-bottom: 10%;
     
@@ -80,16 +82,16 @@ hr {
 
 #menu i {
     position: absolute;
-    top: 2.5%;
+    top: 3%;
     left: 85%;
     font-size: 24px;
 }
 
 .dish_menu {
-    width: 90%;
+    width: 85%;
     background: white;
     border-radius: 10px;
-    
+    padding: 3%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -104,6 +106,6 @@ hr {
 .pricetag_menu {
     font-weight: 600;
     position: absolute;
-    top: 68%;
-    left: 90%;
+    top: 57%;
+    left: 88%;
 }
