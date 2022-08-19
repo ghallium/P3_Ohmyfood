@@ -1,20 +1,22 @@
 header {
     width: 100%;
-    padding-top: 2%;  
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 10px -10px;   
+     
+     
 }
 
 .header_container {
     width: 100%;
-    padding: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     display: flex;
     justify-content: center;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 10px -10px;  
     
     
         img {
             margin: 0 auto;
-            max-width: 250px;
+            max-width: 125px;
         }
 }
 

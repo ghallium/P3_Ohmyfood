@@ -17,6 +17,7 @@ main {
 
 .background_menu img {
     width: 100%;
+    height: 300px;
     object-fit: cover;
     object-position: center;
 }
@@ -29,10 +30,24 @@ main {
 }
 
 .sections_menu {
+    position: relative;
+}
+
+hr {
+    height: 4px;
+    background: $tertiary_color;
+    border: 0;
+    width: 50px;
+    position: absolute;
+    left: 4%;
+    top: 75%;
+}
+
+.sections_menu_title {
     font-weight: 300;
     font-size: 18px;
     text-transform: uppercase;
-    text-decoration: 3px $tertiary_color underline;
+    
     display: flex;
     
 }
@@ -40,13 +55,14 @@ main {
 .dish_name_menu {
     font-size: 18px;
     font-weight: 500;
+    padding-left: 3%;
     
 }
 
 .dish_menu p {
     font-weight: 300;
     font-size: 16px;
-    padding-left: 4%;
+    padding-left: 3%;
 }
 
 #menu {
@@ -73,7 +89,7 @@ main {
     width: 90%;
     background: white;
     border-radius: 10px;
-    margin-bottom: 20px;
+    
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
