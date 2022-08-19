@@ -8,6 +8,16 @@
         padding-left: 41%;
     }
 
+    .background_menu {
+        height: 330px;
+    }
+
+    #menu i {
+        position: absolute;
+        top: 2,5%;
+        left: 92%;
+    }
+
     .restaurants {
         display: flex;
         flex-wrap: wrap;
@@ -77,9 +87,27 @@
         padding-bottom: 4%;
     }
 
+    .instruction {
+        margin-right: 25px;
+    }
+
     h2 {
-        padding-left: 2%;
+        padding-left: 1%;
         padding-bottom: 2%;
+    }
+
+    h3 {
+        padding-left: 1%;
+    }
+
+    .background_menu {
+        height: 350px;
+    }
+
+    #menu i {
+        position: absolute;
+        top: 2,5%;
+        left: 95%;
     }
 
     .restaurants {
@@ -89,14 +117,21 @@
 
     .card_restaurant {
         width: 45%;
+        padding-bottom: 76px;
+
+    }
+
+    .card_restaurant_image {
+        height: 230px;
     }
 
     footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding: 2%;
-        padding-bottom: 2%;
+        align-items: center;
+        padding: 1%;
+        
     }
 
     footer a {

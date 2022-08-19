@@ -32,13 +32,15 @@
     <section class="headline">
       <h1>Réservez le menu qui vous convient</h1>
       <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-      <div class="btn"><span>Explorer nos restaurants</span></div>
+      <a href="#restaurant"
+        ><div class="btn"><span>Explorer nos restaurants</span></div></a
+      >
     </section>
     <h2>Fonctionnement</h2>
     <section class="how_to">
       <article class="instruction">
         <div class="howto_instruction_nb">1</div>
-        <div class="howto_instruction">
+        <div>
           <i class="fa-solid fa-mobile-screen-button"></i>Choisissez un
           restaurant
         </div>
@@ -46,20 +48,16 @@
 
       <article class="instruction">
         <div class="howto_instruction_nb">2</div>
-        <div class="howto_instruction">
-          <i class="fa-solid fa-list"></i>Composez votre menu
-        </div>
+        <div><i class="fa-solid fa-list"></i>Composez votre menu</div>
       </article>
 
       <article class="instruction">
         <div class="howto_instruction_nb">3</div>
-        <div class="howto_instruction">
-          <i class="fa-solid fa-store"></i>Dégustez au restaurant
-        </div>
+        <div><i class="fa-solid fa-store"></i>Dégustez au restaurant</div>
       </article>
     </section>
     <section class="restaurants">
-      <h3>Restaurants</h3>
+      <h3 id="#restaurant">Restaurants</h3>
       <div class="card_restaurant">
         <a href="menu1.html">
           <div class="card_restaurant_new"><span>Nouveau</span></div>
@@ -135,12 +133,13 @@
   </body>
   <!-- PROBLEMES A RESOUDRE 
 
-Media query desktop ne se déclenche pas en mode normal (que en adaptatif) 
+
 Ombre portée sur header qui se voit sur le form
 Scroll latéral sur mobiles alors que propriété CSS en place pour le désactiver
 Hovers de la partie fonctionnement ne marchent pas sur mobiles
 Image de fond mal calée sur page menu La note enchantée
-Revoir cours variables Sass pour les tailles différentes de .btn
+Underline sur titres h2 pages menus
+Hauteur excessive des div dish_menu (padding hérité ?)
  
 
 
