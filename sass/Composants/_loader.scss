@@ -1,6 +1,21 @@
 .loader_section {
-    height: 500px;
-    line-height: 500px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: white;
+    animation: fadeout 3s forwards;
+    z-index: 3;
+    
+}
+
+.loader_section p {
+    padding-top: 20px;
+    color: #353535;
+    text-transform: uppercase;
 }
 
 .loader {
@@ -40,3 +55,25 @@
         transform: rotate(360deg);
     }
 }
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    70% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    90% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+} 
