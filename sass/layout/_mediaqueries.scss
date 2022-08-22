@@ -20,6 +20,10 @@
         height: 375px;
     }
 
+    #menu {
+        padding-bottom: 6%;
+    }
+
     #menu i {
         position: absolute;
         top: 2,5%;
@@ -50,7 +54,10 @@
 
 @media (min-width: $desktop_breakpoint) {
     
-    
+    .header_container {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
 
     .header_container img {
         max-width: 200px;
@@ -79,7 +86,7 @@
     }
 
     .headline {
-        padding: 8%;
+        padding: 6%;
     }
 
     .headline p {
@@ -116,30 +123,75 @@
         height: 400px;
     }
 
+    #menu {
+        padding-bottom: 4%;
+    }
+
     #menu i {
         position: absolute;
         top: 2,5%;
         left: 95%;
     }
 
+    .title_menu {
+        font-size: 35px;
+    }
+
+    .sections_menu_title {
+        font-size: 27px;
+        padding-left: 3%;
+    }
+
     hr {
-        left: 1%;
+        height: 6px;
+        width: 60px;
+        left: 3%;
         top: 62%;
+    }
+
+    .dish_menu {
+        padding: 1%;
+    }
+
+    .dish_menu_p {
+        font-size: 18px;
+    }
+
+    .dish_name_menu {
+        font-size: 24px;
+    }
+
+    .pricetag_menu {
+        font-size: 20px;
+    }
+
+    .btn_menu {
+        margin-top: 60px;
     }
 
     .restaurants {
         display: flex;
         flex-wrap: wrap;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .restaurants_title {
+        padding-left: 1%;
     }
 
     .card_restaurant {
         width: 45%;
-        padding-bottom: 76px;
+        padding-bottom: 200px;
 
     }
 
     .card_restaurant_image {
-        height: 230px;
+        height: 350px;
+    }
+
+    .card_restaurant_new {
+        padding: 1% 2%;
     }
 
     footer {
