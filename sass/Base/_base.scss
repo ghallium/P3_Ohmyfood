@@ -1,11 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+}
+
+.page_content {
     max-width: 1920px;
     margin: 0 auto;
+    box-sizing: border-box;
     overflow-x: hidden;
-    
-    
 }
 
 a {

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .loader_section {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -74,9 +74,12 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
+}
+
+.page_content {
   max-width: 1920px;
   margin: 0 auto;
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -333,7 +336,6 @@ hr {
   padding-left: 4%;
   font-size: 24px;
   display: block;
-  width: 100%;
 }
 
 .restaurants {
@@ -341,6 +343,12 @@ hr {
   background: #f6f6f6;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.card_restaurant_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card_restaurant {
@@ -410,8 +418,8 @@ hr {
 }
 
 footer {
-  width: 100%;
-  /*padding: 2%*/
+  width: 98%;
+  padding: 2%;
   background: #353535;
   display: flex;
   flex-direction: column;
@@ -498,7 +506,7 @@ footer a {
     font-size: 40px;
   }
   .headline {
-    padding: 6%;
+    padding: 2%;
   }
   .headline p {
     font-size: 24px;
@@ -575,10 +583,10 @@ footer a {
   }
   .card_restaurant {
     width: 45%;
-    padding-bottom: 200px;
+    padding-bottom: 5%;
   }
   .card_restaurant_image {
-    height: 350px;
+    height: 250px;
   }
   .card_restaurant_new {
     padding: 1% 2%;
@@ -593,6 +601,7 @@ footer a {
   footer a {
     width: 20%;
     padding: 0;
+    text-align: center;
   }
 }
 

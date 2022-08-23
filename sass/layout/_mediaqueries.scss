@@ -86,7 +86,7 @@
     }
 
     .headline {
-        padding: 6%;
+        padding: 2%;
     }
 
     .headline p {
@@ -183,12 +183,12 @@
 
     .card_restaurant {
         width: 45%;
-        padding-bottom: 200px;
+        padding-bottom: 5%;
 
     }
 
     .card_restaurant_image {
-        height: 350px;
+        height: 250px;
     }
 
     .card_restaurant_new {
@@ -207,6 +207,7 @@
     footer a {
         width: 20%;
         padding: 0;
+        text-align: center;
     }
 
 }
