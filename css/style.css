@@ -422,11 +422,12 @@ footer span {
   font-family: "Shrikhand";
   font-size: 20px;
   display: block;
-  padding-bottom: 2%;
+  padding: 2%;
 }
 footer a {
   text-decoration: none;
   padding: 1%;
+  padding-left: 2%;
   color: white;
   font-weight: 500;
 }
