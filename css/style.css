@@ -310,6 +310,12 @@ hr {
   font-size: 24px;
 }
 
+.dish_menu_container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
 .dish_menu {
   width: 85%;
   background: white;
@@ -359,17 +365,6 @@ hr {
   margin: 0 auto;
   position: relative;
 }
-.card_restaurant i {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 24px;
-  font-weight: 100;
-  margin-left: 280px;
-  margin-top: -50px;
-  padding-right: 15px;
-  padding-bottom: 25px;
-}
 
 .card_restaurant_image {
   height: 150px;
@@ -410,11 +405,63 @@ hr {
   color: black;
   font-weight: 500;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .card_restaurant_excerpt p {
   margin-top: 5px;
   font-weight: 300;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_like {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.fa-heart {
+  position: relative;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.fa-heart:hover {
+  transition: opacity 200ms ease-in-out;
+}
+
+.fa-heart:hover::after {
+  opacity: 0;
+}
+
+.fa-heart:hover::before {
+  opacity: 1;
+}
+
+.fa-heart::after {
+  opacity: 1;
+  font-weight: 100;
+  align-self: center;
+  transition: opacity 400ms ease-in;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "\f004";
+}
+
+.fa-heart::before {
+  opacity: 0;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: opacity 400ms ease-out;
+  font-weight: 600;
 }
 
 footer {
@@ -545,25 +592,32 @@ footer a {
   }
   .title_menu {
     font-size: 35px;
+    padding-left: 2%;
   }
   .sections_menu_title {
     font-size: 27px;
-    padding-left: 3%;
+    padding-left: 2%;
   }
   hr {
     height: 6px;
     width: 60px;
-    left: 3%;
+    left: 2%;
     top: 62%;
   }
+  .dish_menu_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .dish_menu {
+    width: 28%;
     padding: 1%;
   }
   .dish_menu_p {
-    font-size: 18px;
+    font-size: 15px;
   }
   .dish_name_menu {
-    font-size: 24px;
+    font-size: 20px;
   }
   .pricetag_menu {
     font-size: 20px;
@@ -583,7 +637,7 @@ footer a {
   }
   .card_restaurant {
     width: 45%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
   }
   .card_restaurant_image {
     height: 250px;

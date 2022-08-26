@@ -39,7 +39,11 @@
         width: 45%;
     }
 
-   
+   footer {
+
+    
+
+   }
 
     footer span {
         padding-bottom: 1%;
@@ -135,30 +139,39 @@
 
     .title_menu {
         font-size: 35px;
+        padding-left: 2%;
     }
 
     .sections_menu_title {
         font-size: 27px;
-        padding-left: 3%;
+        padding-left: 2%;
     }
 
     hr {
         height: 6px;
         width: 60px;
-        left: 3%;
+        left: 2%;
         top: 62%;
     }
 
+    .dish_menu_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .dish_menu {
+        width: 28%;
         padding: 1%;
+        
     }
 
     .dish_menu_p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .dish_name_menu {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .pricetag_menu {
@@ -183,7 +196,7 @@
 
     .card_restaurant {
         width: 45%;
-        padding-bottom: 5%;
+        padding-bottom: 7%;
 
     }
 

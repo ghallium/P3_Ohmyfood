@@ -1,0 +1,51 @@
+.card_like {
+    width: fit-content; // rajoute
+    // transform: translateX(50%);
+
+    display: flex; // rajoute
+    align-items: center; // rajoute
+}
+
+.fa-heart {
+    position: relative;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.fa-heart:hover {
+    transition: opacity 200ms ease-in-out;
+}
+
+.fa-heart:hover::after {
+    opacity: 0;
+}
+
+.fa-heart:hover::before {
+    opacity: 1;
+}
+
+.fa-heart::after {
+    opacity: 1;
+    font-weight: 100;
+    align-self: center;
+    transition: opacity 400ms ease-in;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    content: '\f004';
+}
+
+.fa-heart::before {
+    opacity: 0;
+    background: linear-gradient($primary_color, $secondary_color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: opacity 400ms ease-out;
+    font-weight: 600;
+}
+
+

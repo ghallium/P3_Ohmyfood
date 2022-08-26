@@ -87,6 +87,12 @@ hr {
     font-size: 24px;
 }
 
+.dish_menu_container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
 .dish_menu {
     width: 85%;
     background: white;
