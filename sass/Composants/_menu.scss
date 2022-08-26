@@ -63,7 +63,7 @@ hr {
 
 .dish_menu p {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     padding: 1%;
     margin: 0;
 }
@@ -105,8 +105,61 @@ hr {
     display: flex;
     flex-direction: column;
     position: relative;
-    /* Il y'a un hover car hérité de la classe article sur index.htm*/
+    animation: fadein_starter 2s;
+    
 
+}
+
+.checkbox {
+    width: 50px;
+    background: $tertiary_color;
+}
+
+.dish_menu_middle {
+    animation: fadein_main 2s;
+    
+}
+
+.dish_menu_end {
+    animation: fadein_dessert 2s; 
+    
+}
+
+@keyframes fadein_starter {
+
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadein_main {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadein_dessert {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .pricetag_menu {
