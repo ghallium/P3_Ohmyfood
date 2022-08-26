@@ -265,7 +265,7 @@ hr {
   height: 4px;
   background: #99E2D0;
   border: 0;
-  width: 50px;
+  width: 40px;
   position: absolute;
   left: 4%;
   top: 75%;
@@ -551,7 +551,7 @@ footer a {
   }
   #menu i {
     position: absolute;
-    top: 2, 5%;
+    top: 3%;
     left: 92%;
   }
   .restaurants {
@@ -629,7 +629,7 @@ footer a {
   }
   #menu i {
     position: absolute;
-    top: 2, 5%;
+    top: 3%;
     left: 95%;
   }
   .title_menu {
