@@ -123,6 +123,7 @@ hr {
     flex-wrap: wrap;
     position: relative;
     z-index: 1;
+    overflow: hidden;
     animation: fadein_starter 2s;
     
 
@@ -222,15 +223,6 @@ i.fas.fa-check-circle {
     }
 }
 
-@keyframes slideleft {
-    from {
-        
-    }
-
-    to {
-        
-    }
-}
 
 
 

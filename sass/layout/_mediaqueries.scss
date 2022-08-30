@@ -225,23 +225,3 @@
 
 }
 
-/* MEDIA QUERIES CHECKBOX */ 
-
-/*SMALL*/
-@media screen and (max-width: 667px){
-    
-    .checkbox{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   
-   
-  
-    .dish_menu {
-        width: 80%;
-        background-color: white;
-    }
- 
-}
-
