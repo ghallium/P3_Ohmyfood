@@ -24,7 +24,7 @@
         padding-bottom: 6%;
     }
 
-    #menu i {
+    #menu .fa-heart {
         position: absolute;
         top: 3%;
         left: 92%;
@@ -131,7 +131,7 @@
         padding-bottom: 4%;
     }
 
-    #menu i {
+    #menu .fa-heart {
         position: absolute;
         top: 3%;
         left: 95%;
@@ -224,3 +224,24 @@
     }
 
 }
+
+/* MEDIA QUERIES CHECKBOX */ 
+
+/*SMALL*/
+@media screen and (max-width: 667px){
+    
+    .checkbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+   
+  
+    .dish_menu {
+        width: 80%;
+        background-color: white;
+    }
+ 
+}
+
