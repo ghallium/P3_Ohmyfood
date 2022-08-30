@@ -129,6 +129,15 @@ hr {
 
 }
 
+.pricetag_menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+
 .checkbox {
     background-color: $tertiary_color;
     margin: -1rem -5rem -1rem 1rem;
@@ -226,10 +235,3 @@ i.fas.fa-check-circle {
 
 
 
-.pricetag_menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-left: 0.5rem;
-    font-weight: bold;
-}

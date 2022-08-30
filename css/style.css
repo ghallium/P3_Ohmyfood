@@ -347,6 +347,14 @@ hr {
   animation: fadein_starter 2s;
 }
 
+.pricetag_menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+
 .checkbox {
   background-color: #99E2D0;
   margin: -1rem -5rem -1rem 1rem;
@@ -431,14 +439,6 @@ i.fas.fa-check-circle {
     transform: translateY(0);
   }
 }
-.pricetag_menu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-left: 0.5rem;
-  font-weight: bold;
-}
-
 .restaurants_title {
   padding-left: 4%;
   font-size: 24px;
