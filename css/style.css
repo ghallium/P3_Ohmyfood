@@ -283,6 +283,7 @@ hr {
   font-weight: 500;
   padding: 1%;
   margin: 0;
+  width: 80%;
 }
 
 .dish_menu p {
@@ -325,7 +326,7 @@ hr {
   margin-right: auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   position: relative;
   animation: fadein_starter 2s;
 }
@@ -333,6 +334,7 @@ hr {
 .checkbox {
   width: 50px;
   background: #99E2D0;
+  display: flex;
 }
 
 .dish_menu_middle {
@@ -507,7 +509,6 @@ hr {
 }
 
 footer {
-  width: 98%;
   padding: 2%;
   background: #353535;
   display: flex;
