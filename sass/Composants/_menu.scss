@@ -53,8 +53,8 @@ hr {
 }
 
 .dish_name_menu {
-    width: 90%;
-    font-size: 18px;
+    width: 95%;
+    font-size: 16px;
     font-weight: 500;
     padding: 1%;
     margin: 0;
@@ -97,7 +97,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: auto;
+    
     position: relative;
     
 }
@@ -111,18 +111,18 @@ hr {
 }
 
 .dish_menu {
-    width: 85%;
+    width: 80%;
+    margin-left: 2%;
     background: white;
     border-radius: 10px;
     padding: 3%;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+   
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    z-index: 1;
+    
     overflow: hidden;
     animation: fadein_starter 2s;
     
