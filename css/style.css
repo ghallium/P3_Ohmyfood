@@ -511,7 +511,7 @@ i.fas.fa-check-circle {
   font-weight: 300;
 }
 
-.test {
+.excerpt_text {
   display: flex;
   flex-direction: column;
 }
