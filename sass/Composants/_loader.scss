@@ -9,14 +9,16 @@
     background: white;
     animation: fadeout 3s forwards;
     z-index: 3;
+
+    p {
+        padding-top: 20px;
+        color: $quartermary_color;
+        text-transform: uppercase;
+    }
     
 }
 
-.loader_section p {
-    padding-top: 20px;
-    color: $quartermary_color;
-    text-transform: uppercase;
-}
+
 
 .loader {
     width: 50px;

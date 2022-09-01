@@ -17,6 +17,13 @@ a {
 .headline {
     background: $grey_background;
     padding: 5%;
+
+    p {
+        text-align: center;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -26,10 +33,5 @@ h1 {
     padding-top: 20px;
 }
 
-.headline p {
-    text-align: center;
-    font-weight: 300;
-    font-size: 18px;
-    padding-bottom: 10px;
-}
+
 
