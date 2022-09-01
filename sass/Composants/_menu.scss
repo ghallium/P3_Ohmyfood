@@ -139,52 +139,6 @@ hr {
 }
 
 
-.checkbox {
-    background-color: $tertiary_color;
-    margin: -1rem -5rem -1rem 1rem;
-    width: 4rem;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    transition-duration: 0.5s;
-    align-items: center;
-    border-radius: 0px 10px 10px 0px;
-    animation: slideleft 1s;
-}
-
-.dish_menu:hover .checkbox {
-    margin-right: -1rem;
-}
-
-i.fas.fa-check-circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 50px;
-    width: 50px;
-    font-size: 20px;
-    transition-duration: 0.5s;
-    z-index: 0;
-    background: $tertiary_color;
-
-}
-
-.rotation {
-    height: 1.6rem;
-    width: 1.6rem;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    transform: rotate(180deg);
-    transition-duration: 0.5s;
-}
-
-.dish_menu:hover .rotation {
-    transform: rotate(0);
-}
 
 .dish_menu_middle {
     animation: fadein_main 2s;
