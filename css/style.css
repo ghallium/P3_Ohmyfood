@@ -330,7 +330,7 @@ hr {
 }
 
 .dish_menu {
-  width: 80%;
+  width: 88%;
   margin-left: 2%;
   background: white;
   border-radius: 10px;
@@ -349,6 +349,7 @@ hr {
   justify-content: flex-end;
   align-items: flex-end;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-weight: bold;
 }
 
@@ -592,6 +593,9 @@ footer a {
   .fa-map-marker-alt {
     padding-left: 41%;
   }
+  #input_bar {
+    padding-left: 2%;
+  }
   .fa-arrow-left {
     top: 35%;
   }
@@ -612,6 +616,9 @@ footer a {
   .dish_menu {
     padding: 2%;
     margin-left: 3%;
+  }
+  .checkbox {
+    margin: -1rem -6rem -1rem 1rem;
   }
   .restaurants {
     display: flex;
@@ -713,15 +720,17 @@ footer a {
   .dish_menu {
     width: 28%;
     padding: 1%;
+    margin-top: 0;
   }
   .dish_menu_p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .dish_name_menu {
     font-size: 20px;
   }
   .pricetag_menu {
     font-size: 20px;
+    padding-right: 1.5rem;
   }
   .checkbox {
     margin: -1rem -6rem -1rem 1rem;

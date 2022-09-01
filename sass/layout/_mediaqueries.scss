@@ -8,6 +8,10 @@
         padding-left: 41%;
     }
 
+    #input_bar {
+        padding-left: 2%;
+    }
+
     .fa-arrow-left {
         top: 35%;
     }
@@ -33,6 +37,10 @@
     .dish_menu {
         padding: 2%;
         margin-left: 3%;
+    }
+
+    .checkbox {
+        margin: -1rem -6rem -1rem 1rem;
     }
 
     .restaurants {
@@ -164,11 +172,12 @@
     .dish_menu {
         width: 28%;
         padding: 1%;
+        margin-top: 0;
         
     }
 
     .dish_menu_p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .dish_name_menu {
@@ -177,6 +186,7 @@
 
     .pricetag_menu {
         font-size: 20px;
+        padding-right: 1.5rem;
     }
 
     .checkbox {
