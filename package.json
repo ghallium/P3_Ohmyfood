@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./css/style.css",
-    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
-  },
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./public/css/prefixed/"
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ghallium/P3_Ohmyfood.git"
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/ghallium/P3_Ohmyfood#readme",
   "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
     "sass": "^1.54.2"
   }
-}
+  }
