@@ -8,7 +8,8 @@
     transition-duration: 0.5s;
     align-items: center;
     border-radius: 0px 10px 10px 0px;
-    animation: slideleft 1s;
+    -webkit-animation: slideleft 1s;
+            animation: slideleft 1s;
 }
 
 .dish_menu:hover .checkbox {
